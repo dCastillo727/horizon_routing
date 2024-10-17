@@ -1,4 +1,4 @@
-name: horizon_routing
+name: web_example
 description: "A new Flutter project."
 publish_to: "none"
 version: 0.1.0
@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  horizon_routing:
+    git: https://github.com/dCastillo727/horizon_routing
 
 dev_dependencies:
   flutter_test:
