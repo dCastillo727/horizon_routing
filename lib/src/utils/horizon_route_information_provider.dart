@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/widgets.dart';
 
 class HorizonRouteInformationProvider extends PlatformRouteInformationProvider {
@@ -8,7 +10,7 @@ class HorizonRouteInformationProvider extends PlatformRouteInformationProvider {
     RouteInformation routeInformation, {
     RouteInformationReportingType type = RouteInformationReportingType.none,
   }) {
-    print('HorizonRouteInformationProvider: $routeInformation');
+    log('HorizonRouteInformationProvider: $routeInformation');
     super.routerReportsNewRouteInformation(routeInformation, type: type);
   }
 }

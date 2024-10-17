@@ -88,7 +88,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "2ee2fd6118ae1ab9394e658da7d8d9876966907b"
+      resolved-ref: "1fe8adac283c40406268c4e4af56428c2146d4db"
       url: "https://github.com/dCastillo727/horizon_routing"
     source: git
     version: "0.0.1"
@@ -306,7 +306,7 @@ packages:
     source: hosted
     version: "14.2.5"
   web:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: web
       sha256: cd3543bd5798f6ad290ea73d210f423502e71900302dde696f8bff84bf89a1cb
